@@ -9,7 +9,7 @@ helmCharts:
     version: 51.0.2
     includeCRDs: true
     namespace: monitoring
-    valuesFile: ./charts/kube-prometheus-stack/values.yaml
+    valuesFile: values.yaml
 
 helmGlobals:
   chartHome: charts
